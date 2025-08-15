@@ -1,0 +1,80 @@
+/* Import a clean Google font */
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'UnifrakturCook', cursive;
+  background-color: #a00b0b;
+  color: #000000;
+  line-height: 1.6;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* makes it circular */
+  display: block;
+  margin: 0 auto; /* centers it */
+}
+
+/* Centered header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 2rem;
+  color: #000000;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+section p {
+  font-size: 2rem;
+  color: #000000;
+}
+
+/* Section styling */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+
+
+/* Footer styling */
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin: 5rem 35rem 0rem 35rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  section {
+    padding: 1.5rem 1rem;
+  }
+}
